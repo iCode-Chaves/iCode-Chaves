@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculo Fácil</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <img src="Calculator-PNG-Picture.png">
+        <h1>MÉDIA FÁCIL</h1>
+    </header>
+
+    <main>
+        <form>
+            <div class="container">
+                <div>
+                    <label>Nome do Aluno</label>
+                    <input type="text" name="nome" id="">
+                </div>
+                <div>
+                    <label>Digite a Nota do 1º Bimestre</label>
+                    <input type="number" name="nota1" id="nota1" required>
+                </div>
+                <div>
+                    <label>Digite a Nota do 2º Bimestre</label>
+                    <input type="number" name="nota2" id="nota2" required>
+                </div>
+                <div>
+                    <label>Digite a Nota do 3º Bimestre</label>
+                    <input type="number" name="nota3" id="nota3" required>
+                </div>
+                <div>
+                    <label>Digite a Nota do 4º Bimestre</label>
+                    <input type="number" name="nota4" id="nota4" required>
+                </div>
+                <div class="btn-calc">
+                    <input type="submit" onclick="media()">
+                </div>
+            </div>
+        </form>
+    </main>
+
+    <script src="calculadora.js"></script>
+</body>
+
+</html>
