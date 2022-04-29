@@ -1,0 +1,89 @@
+body{
+    background-image: url(imgs/wallpaper.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 98vh;
+    font-family: 'Radio Canada', sans-serif;
+}
+
+/* Cabeçalho */
+
+.menu{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-transform: uppercase;
+}
+
+.logo{
+    font-size: 24px;
+    color: #CE0FD4;
+}
+
+.menu ul{
+    list-style: none;
+    display: flex;
+}
+
+.menu li,a{
+    letter-spacing: 3px;
+    margin-left: 32px;
+    margin: 10px;
+    text-decoration: none;
+    color: #CE0FD4;
+}
+
+li a:hover{
+    background: #920FD4;
+    color: #FFF;
+    padding: 10%;
+    border-radius: 24px;
+    font-weight: bold;
+    transition: 1.5s;
+}
+
+/* Conteúdo do Site */
+
+.info{
+    float: left;
+    margin: 100px;
+    width: 550px;
+    height: 400px;
+}
+
+.info h1{
+    color: #920FD4;
+    text-transform: uppercase;
+    font-size: 36px;
+    text-align: center;
+}
+
+.imagem{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.imagem img{
+    width: 600px;
+}
+
+/* Estilização do Botão */
+
+.btn [type=submit]{
+    margin-top: 10%;
+    margin-left: 35%;
+    background-image: linear-gradient(90deg, #CE0FD4, #920FD4);
+    color: #FFF;
+    text-transform: uppercase;
+    padding: 1.5rem 3rem;
+    border-radius: 24px;
+    border: none;
+    font-weight: bold;
+    transition: 1.5s;
+}
+
+.btn [type=submit]:hover{
+    cursor: pointer;
+    margin-top: 5%;
+    transition: 1.5s;
+}
